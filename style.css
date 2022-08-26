@@ -2,10 +2,22 @@
     background-color: lightcoral;
 }
 img{
-    text-align: center;
     height: auto;
     width: 900px;
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+.title{
+    text-align: center;
+    font-family: Monaco, Georgia, monospace;
+    color: darkred;
+    font-size: 50px;
+    font-weight: bold;
+}
+li{
+    text-align: center;
+    list-style-position: inside;
+    color: darkred;
+    font-size: 20px;
 }
