@@ -1,3 +1,19 @@
 * {
-    color:red;
+    background-color: #E6BAA3;
+    color: #A94438;
+    font-size: 120%;
+}
+
+h1 {
+    font-size: 500%;
+    text-align: center;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underLine;
+    color: #720455;
 }
