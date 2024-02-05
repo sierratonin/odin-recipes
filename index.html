@@ -2,16 +2,36 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <title>Potato Recipes</title>
+        <title>Tasty Taters</title>
         <link rel="stylesheet" href="style.css">
     </head>
 
     <body>
-        <h1>Potato Recipes</h1>
-        <ul>
-            <li><a href="recipes/fries.html">Fries</a></li>
-            <li><a href="recipes/chips.html">Chips</a></li>
-            <li><a href="recipes/hashbrowns.html">Hashbrowns</a></li>
-        </ul>
+        <h1>Tasty Taters</h1>
+        <div class="flex-container">
+            <a href="recipes/fries.html"><div class="fries-preview">
+                <h2>Fries</h2>
+                <img class="preview-img"
+                    src="photos/fries.jpg" 
+                    alt="French fries in a metal container" 
+                    height="100">
+            </div></a>
+            <a href="recipes/hashbrowns.html"><div class="hashbrowns-preview">
+                <h2>Hashbrowns</h2>
+                <img class="preview-img"
+                    src="photos/hashbrowns.jpg" 
+                    alt="Crispy hashbrowns on a cutting board" 
+                    height="100">
+            </div></a>
+            <a href="recipes/chips.html"><div class="chips-preview">
+                <h2>Chips</h2>
+                <img class="preview-img"
+                    src="photos/chips.jpg" 
+                    alt="Crispy potato chips" 
+                    height="100">
+            </div></a>
+            
+        </div>
+ 
     </body>
 </html>
