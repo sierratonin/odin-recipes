@@ -8,7 +8,8 @@
 h1 {
     font-size: 150px;
     text-align: center;
-    margin-bottom: 50px;
+    padding-top: 50px;
+    margin-bottom: 20px;
     transition: all .2s ease-in-out;
 }
 
@@ -54,7 +55,7 @@ a:link{
     width: 75%;
     justify-content: space-between;
     flex-wrap: wrap;
-    min-height: 600px;
+    min-height: calc(100vh - 60px);
 }
 .recipe-header{
     text-align:center}
